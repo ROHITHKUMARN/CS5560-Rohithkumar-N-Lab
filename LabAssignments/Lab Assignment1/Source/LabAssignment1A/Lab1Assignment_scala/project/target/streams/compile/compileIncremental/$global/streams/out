@@ -1,0 +1,30 @@
+[debug] [naha] 
+[debug] [naha] Initial source changes: 
+[debug] [naha] 	removed:Set(/Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java)
+[debug] [naha] 	added: Set()
+[debug] [naha] 	modified: Set()
+[debug] [naha] Invalidated products: Set()
+[debug] [naha] External API changes: API Changes: Set()
+[debug] [naha] Modified binary dependencies: Set()
+[debug] [naha] Initial directly invalidated sources: Set(/Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java)
+[debug] [naha] 
+[debug] [naha] Sources indirectly invalidated by:
+[debug] [naha] 	product: Set()
+[debug] [naha] 	binary dep: Set()
+[debug] [naha] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java)
+[debug] [naha] Initial set of included nodes: Set(/Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java)
+[debug] [naha] Recompiling all 0 sources: invalidated sources (1) exceeded 50.0% of all sources
+[debug] [naha] Invalidating /Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java...
+[debug] [naha] Invalidating (transitively) by inheritance from /Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java...
+[debug] [naha] Initial set of included nodes: Set(/Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java)
+[debug] [naha] Invalidated by transitive inheritance dependency: Set(/Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java)
+[debug] [naha] The /Users/satheeshchandra/Downloads/LibraryDemo/project/DenseVectorSupportMethods.java source file has the following regular definitions changed:
+[debug] [naha] 	notify, dotProduct_Float, wait, equals, smallDotProduct_Double, smallDotProduct_Float, dotProduct_Double, notifyAll, DenseVectorSupportMethods, <init>, toString, getClass, MAX_SMALL_DOT_PRODUCT_LENGTH, UNROLL_LENGTH, hashCode.
+[debug] [naha] All member reference dependencies will be considered within this context.
+[debug] [naha] New invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] Initial set of included nodes: Set()
+[debug] [naha] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
