@@ -32,7 +32,7 @@ public class Main {
         List<CoreLabel> values = new ArrayList<>();
         try (BufferedReader br = new BufferedReader
                 (new FileReader
-                        ("src/main/datafolder/SampleData"))) {
+                        ("/Users/satheeshchandra/Desktop/UMKC.docx"))) {
             StringBuilder sbuilder = new StringBuilder();
             String l = br.readLine();
             while (l != null) {
