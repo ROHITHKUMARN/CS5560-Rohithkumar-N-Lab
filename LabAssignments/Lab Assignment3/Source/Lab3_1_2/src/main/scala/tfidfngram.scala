@@ -2,6 +2,8 @@
   * Created by rohithkumar on 6/27/17.
   */
 
+import java.io.{BufferedWriter, FileWriter}
+
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.feature.{HashingTF, IDF}
 
@@ -15,6 +17,8 @@ object tfidfngram {
     val sparkConf = new SparkConf().setAppName("TF_IDF_NGRAM").setMaster("local[*]")
 
     val sc = new SparkContext(sparkConf)
+
+    val c1 = new BufferedWriter(new FileWriter("output/tfidfngram.txt"))
 
     //Reading the Text File
     val documents = sc.textFile("data/Article.txt")
@@ -70,8 +74,11 @@ object tfidfngram {
     })
 
     val dd1 = dd.distinct().sortBy(_._2, false)
-    dd1.take(20).foreach(f => {
-      println(f)
+    val x=dd1.take(5)
+    x.foreach(f => {
+      c1.write(f._1 + " " +f._2)
+      c1.write("\n")
+      c1.flush()
     })
 
   }

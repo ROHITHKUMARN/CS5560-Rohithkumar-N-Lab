@@ -1,3 +1,5 @@
+import java.io.{BufferedWriter, File, FileWriter}
+
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.feature.{HashingTF, IDF}
 
@@ -12,6 +14,8 @@ object tfidflemma {
     System.setProperty("hadoop.home.dir", "/usr/local/Cellar/apache-spark/2.1.0/bin/")
 
     val sparkConf = new SparkConf().setAppName("TF_IDF_Lemma").setMaster("local[*]")
+
+    val b1 = new BufferedWriter(new FileWriter("output/tfidflemma.txt"))
 
     val sc = new SparkContext(sparkConf)
 
@@ -72,8 +76,11 @@ object tfidflemma {
     })
 
     val dd1 = dd.distinct().sortBy(_._2, false)
-    dd1.take(20).foreach(f => {
-      println(f)
+    val x=dd1.take(5)
+      x.foreach(f => {
+        b1.write(f._1 + " " +f._2)
+        b1.write("\n")
+        b1.flush()
     })
 
   }

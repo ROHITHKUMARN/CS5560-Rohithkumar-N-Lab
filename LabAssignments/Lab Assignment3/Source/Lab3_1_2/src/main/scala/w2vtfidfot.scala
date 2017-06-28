@@ -90,9 +90,9 @@ object w2vtfidfot {
 
 
     //W2v
-    val input = sc.textFile("data/Article.txt").map(line => NGRAM.getNGrams(line,2).map(x=>x.mkString(" ")).toSeq)
+    val input = sc.textFile("data/Article.txt").map(line => line.split(" ").map(x=>x.mkString(" ")).toSeq)
 
-    val modelFolder = new File("model/tfidf_synonymsfororiginaltext.txt")
+    val modelFolder = new File("ot")
 
     if (modelFolder.exists()) {
       val sameModel = Word2VecModel.load(sc, "synonyms")
@@ -116,7 +116,7 @@ object w2vtfidfot {
         }
         model.getVectors.foreach(f => println(f._1 + ":" + f._2.length))
         // Save and load model
-        model.save(sc, "output/synonymsfororiginaltext")
+        model.save(sc, "ot")
 
       })
     }

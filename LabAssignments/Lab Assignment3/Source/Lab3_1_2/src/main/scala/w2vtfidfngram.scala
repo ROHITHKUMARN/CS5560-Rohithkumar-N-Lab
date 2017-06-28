@@ -92,7 +92,7 @@ object w2vtfidfngram {
     //W2v
     val input = sc.textFile("data/Article.txt").map(line => NGRAM.getNGrams(line,2).map(x=>x.mkString(" ")).toSeq)
 
-    val modelFolder = new File("model/tfidf_synonymsforngram.txt")
+    val modelFolder = new File("synonyms")
 
     if (modelFolder.exists()) {
       val sameModel = Word2VecModel.load(sc, "synonyms")
@@ -110,13 +110,13 @@ object w2vtfidfngram {
       dd1.take(4).foreach(f => {
         // println(f)
         val synonyms = model.findSynonyms(f._1, 2)
-        println("Synonyms for : " + f._1 )
+        println("Synonyms for ngram: " + f._1 )
         for ((synonym, cosineSimilarity) <- synonyms) {
           println(s"$synonym $cosineSimilarity")
         }
         model.getVectors.foreach(f => println(f._1 + ":" + f._2.length))
         // Save and load model
-        model.save(sc, "output/synonymsforngram.txt")
+         model.save(sc, "synonyms")
 
       })
     }
