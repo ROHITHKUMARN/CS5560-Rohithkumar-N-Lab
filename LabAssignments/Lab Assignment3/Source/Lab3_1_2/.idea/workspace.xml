@@ -111,8 +111,8 @@
       <file leaf-file-name="w2vtfidfngram.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/w2vtfidfngram.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="106" column="6" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/tfidf.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/tfidflemma.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/tfidfngram.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/w2vtfidfngram.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/w2vtfidflemma.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/w2vtfidfot.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/w2vtfidfngram.scala" />
       </list>
     </option>
   </component>
@@ -1008,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/w2vtfidfngram.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="106" column="6" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
