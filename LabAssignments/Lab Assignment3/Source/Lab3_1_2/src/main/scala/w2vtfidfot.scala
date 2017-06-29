@@ -20,7 +20,7 @@ object w2vtfidfot {
     val sc = new SparkContext(sparkConf)
 
     //Reading the Text File
-    val documents = sc.textFile("data/Article.txt")
+    val documents = sc.textFile("data/mylab")
     val stopWordsInput = sc.textFile("data/englishstopwords.txt")
     // Flatten, collect, and broadcast.
     val stopWords = stopWordsInput.flatMap(x => x.split(",")).map(_.trim)
@@ -28,14 +28,8 @@ object w2vtfidfot {
 
     //Getting the Lemmatised form of the words in TextFile
     val documentseq = documents.map(f => {
-      //   val lemmati = CoreNLP.returnLemma(f)
-      //val sString = lemmati.split(" ").filter(!broadcastStopWords.value.contains(_)).filter( w => !w.contains(","))
       val line = f.split(" ")
-      // val ngraoutput = NGRAM.getNGrams(f,2).map(f=>f.mkString(""))
       line.toSeq
-      // val sStrng = f.split(" ").filter(!broadcastStopWords.value.contains(_)).filter( w => !w.contains(","))
-      //  val sStrng = ngraoutput.split(" ").filter(!broadcastStopWords.value.contains(_)).filter( w => !w.contains(","))
-      // sStrng.toSeq
     })
 
     documentseq.foreach(f=>println(f.mkString("")))
@@ -90,14 +84,14 @@ object w2vtfidfot {
 
 
     //W2v
-    val input = sc.textFile("data/Article.txt").map(line => line.split(" ").map(x=>x.mkString(" ")).toSeq)
+    val input = sc.textFile("data/mylab").map(line => line.split(" ").map(x=>x.mkString(" ")).toSeq)
 
     val modelFolder = new File("ot")
 
     if (modelFolder.exists()) {
       val sameModel = Word2VecModel.load(sc, "synonyms")
 
-      dd1.take(4).foreach(f => {
+      dd1.foreach(f => {
         val synonyms = sameModel.findSynonyms(f._1, 2)
         println("Synonyms for original text: " + f._1 )
         for ((synonym, cosineSimilarity) <- synonyms) {
@@ -107,7 +101,7 @@ object w2vtfidfot {
     else {
       val word2vec = new Word2Vec().setVectorSize(1000).setMinCount(1)
       val model = word2vec.fit(input)
-      dd1.take(4).foreach(f => {
+      dd1.foreach(f => {
         // println(f)
         val synonyms = model.findSynonyms(f._1, 2)
         println("Synonyms for original text: " + f._1 )

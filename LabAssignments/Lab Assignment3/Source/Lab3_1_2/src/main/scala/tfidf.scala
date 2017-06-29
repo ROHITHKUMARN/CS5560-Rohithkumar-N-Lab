@@ -22,7 +22,7 @@ object tfidf {
     val a1 = new BufferedWriter(new FileWriter("output/tfidforiginal.txt"))
 
     //Reading the Text File
-    val documents = sparkcontext.textFile("data/Article.txt")
+    val documents = sparkcontext.textFile("data/mylab")
 
     //Getting the Lemmatised form of the words in TextFile
     val doclist = documents.map(f => {
@@ -77,7 +77,7 @@ object tfidf {
 
     val dd1 = docdata.distinct().sortBy(_._2, false)
 
-    val x= dd1.take(5)
+    val x= dd1.collect
 
     x.foreach(f => {
       a1.write(f._1 + " " +f._2)

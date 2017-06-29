@@ -17,31 +17,32 @@ import scala.collection.JavaConversions._
 import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.collection.immutable.HashMap
-object main {
+
+object QA2 {
 
   System.setProperty("hadoop.home.dir","/usr/local/Cellar/apache-spark/2.1.0/bin/");
 
-  val sparkConf = new SparkConf().setAppName("Q&A system").setMaster("local[*]").
+  val sparkConfig_rk = new SparkConf().setAppName("Q&A system").setMaster("local[*]").
     set("spark.driver.memory", "6g").set("spark.executor.memory", "6g")
 
-  val sc = new SparkContext(sparkConf)
+  val sparkcontext_rk = new SparkContext(sparkConfig_rk)
 
-  val stopWordsInput = sc.textFile("input/englishstopwords.txt")
+  val stopinput = sparkcontext_rk.textFile("input/englishstopwords.txt")
 
-  val stopwords = stopWordsInput.flatMap(x=>x.split(",")).map(_.trim)
+  val stop_rk = stopinput.flatMap(x=>x.split(",")).map(_.trim)
 
-  val broadcastStopWords = sc.broadcast(stopwords.collect.toSet)
+  val bcstop_rk = sparkcontext_rk.broadcast(stopinput.collect.toSet)
 
-  def coreNLP(text: String): Seq[String] = {
-    val props = new Properties()
-    props.put("annotators", "tokenize, ssplit, pos, lemma,ner, parse, dcoref")
-    val pipeline = new StanfordCoreNLP(props)
-    val doc = new Annotation(text)
-    pipeline.annotate(doc)
+  def findNER(text: String): Seq[String] = {
+    val properties = new Properties()
+    properties.put("annotators", "tokenize, ssplit, pos, lemma,ner, parse, dcoref")
+    val pline = new StanfordCoreNLP(properties)
+    val docs = new Annotation(text)
+    pline.annotate(docs)
     val ners = new ArrayBuffer[String]()
-    val sentences = doc.get(classOf[SentencesAnnotation])
+    val sentences = docs.get(classOf[SentencesAnnotation])
     for (sentence <- sentences; token <- sentence.get(classOf[TokensAnnotation])) {
-      val x = token.originalText().filter(!broadcastStopWords.value.contains(_))
+      val x = token.originalText().filter(!bcstop_rk.value.contains(_))
       if (!x.equals(""))
       {
         val ner = token.ner()
@@ -56,107 +57,96 @@ object main {
 
 
   def main(args: Array[String]) {
-    //setting spark properties
 
-    Logger.getLogger("org").setLevel(Level.ERROR)
-    Logger.getLogger("akka").setLevel(Level.ERROR)
 
-    //Stop words removal
-    val input = sc.textFile("input/mydataset")
+    val input = sparkcontext_rk.textFile("input/mydataset")
 
-    //Ner extraction
-    val ner = input.flatMap(coreNLP(_))
+    val ner = input.flatMap(findNER(_))
 
-    // Getting TFIDF for the lemmatised input
-    val inputseq = input.map(f => {
-      val lemmatised = CoreNLP.returnLemma(f)
-      val splitString = lemmatised.split(" ")
-      splitString.toSeq
+    val inputlines = input.map(f => {
+      val lsd = CoreNLP.returnLemma(f)
+      val string = lsd.split(" ")
+      string.toSeq
     })
 
     val hashingTF = new HashingTF()
 
     //Creating Term Frequency of the document
-    val tf1 = hashingTF.transform(inputseq)
-    tf1.cache()
+    val TF_rk = hashingTF.transform(inputlines)
+    TF_rk.cache()
 
 
-    val idf1 = new IDF().fit(tf1)
+    val IDF_rk = new IDF().fit(TF_rk)
 
     //Creating Inverse Document Frequency
-    val tfidf1 = idf1.transform(tf1)
+    val tfidf_rk = IDF_rk.transform(TF_rk)
 
-    val tfidfvalues = tfidf1.flatMap(f => {
-      val ff: Array[String] = f.toString.replace(",[", ";").split(";")
-      val values = ff(2).replace("]", "").replace(")", "").split(",")
-      values
+    val vl = tfidf_rk.flatMap(n => {
+      val xyz: Array[String] = n.toString.replace(",[", ";").split(";")
+      val stu = xyz(2).replace("]", "").replace(")", "").split(",")
+      stu
     })
 
-    val tfidfindex = tfidf1.flatMap(f => {
-      val ff: Array[String] = f.toString.replace(",[", ";").split(";")
-      val indices = ff(1).replace("]", "").replace(")", "").split(",")
-      indices
+    val ix = tfidf_rk.flatMap(u => {
+      val lmn: Array[String] = u.toString.replace(",[", ";").split(";")
+      val hgi = lmn(1).replace("]", "").replace(")", "").split(",")
+      hgi
     })
 
-    tfidf1.foreach(f => println(f))
+    tfidf_rk.foreach(f => println(f))
 
-    val tfidfData = tfidfindex.zip(tfidfvalues)
+    val tfidfData = vl.zip(ix)
 
-    var hm = new HashMap[String, Double]
+    var hmap = new HashMap[String, Double]
 
-    tfidfData.collect().foreach(f => {
-      hm += f._1 -> f._2.toDouble
+    tfidfData.take(10).foreach(f => {
+      hmap += f._1 -> f._2.toDouble
     })
 
-    val mapp = sc.broadcast(hm)
+    val m = sparkcontext_rk.broadcast(hmap)
 
-    val documentData = inputseq.flatMap(_.toList)
-    val dd = documentData.map(f => {
-      val i = hashingTF.indexOf(f)
-      val h = mapp.value
-      (f, h(i.toString))
+    val documentData = inputlines.flatMap(_.toList)
+    val ddata_rk = documentData.map(f => {
+      val r = hashingTF.indexOf(f)
+      val k = m.value
+      (f, k(r.toString))
     })
 
-    val significantwords = dd.distinct().sortBy(_._2, false)
-    /* val dd2 = dd1.take(5).foreach(f => {
-       println(f)
-     }) */
+    val impwords = ddata_rk.distinct().sortBy(_._2, false)
 
     val personrdd =ner.filter(line=>line.contains("PERSON"))
     val locrdd =ner.filter(line=>line.contains("LOCATION"))
     val organizationrdd =ner.filter(line=>line.contains("ORGANIZATION"))
-    // personrdd.foreach(println)
-    println("Welcome to question answering system")
+
+
+    println("Welcome to QA system")
+
     while(true)
     {
-      println("Please enter your question,Enter 0 to Quit")
-
-      //performing lemmatization on the question
-      val ques = readLine()
-      //  Lemmatization.returnLemma(ques)
-      val Lemma_ques = CoreNLP.returnLemma(ques).toUpperCase
-      // println(Lemma_ques)
-      if(Lemma_ques.equalsIgnoreCase("0")) {
-        System.exit(0)
-      }
-      else if (Lemma_ques.contains("WHO") || Lemma_ques.contains("PERSON"))
+      println("Enter 1 to ask question/0 to Quit")
+      val choice = readLine()
+      if(choice.equalsIgnoreCase("0"))
+        System.exit(0);
+      else if(choice.equalsIgnoreCase("1")){
+        println("Enter your question...!")
+      val question = readLine()
+      val qlemma = CoreNLP.returnLemma(question).toLowerCase
+         if (qlemma.contains("who") || qlemma.contains("person"))
       {
 
         personrdd.distinct.take(5).foreach(println)
       }
 
-      else if (Lemma_ques.contains("WHERE") || Lemma_ques.contains("LOCATION"))
+      else if (qlemma.contains("where") || qlemma.contains("location"))
       {
 
         locrdd.distinct.take(5).foreach(println)
       }
-      else if (Lemma_ques.contains("WHICH") || Lemma_ques.contains("ORGANIZATION"))
+      else if (qlemma.contains("which") || qlemma.contains("organization"))
       {
-
         organizationrdd.distinct.take(5).foreach(println)
       }
-
-
+    }
     }
 
   }

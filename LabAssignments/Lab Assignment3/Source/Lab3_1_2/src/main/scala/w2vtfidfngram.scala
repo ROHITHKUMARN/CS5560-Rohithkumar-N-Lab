@@ -20,7 +20,7 @@ object w2vtfidfngram {
     val sc = new SparkContext(sparkConf)
 
     //Reading the Text File
-    val documents = sc.textFile("data/Article.txt")
+    val documents = sc.textFile("data/mylab")
     val stopWordsInput = sc.textFile("data/englishstopwords.txt")
     // Flatten, collect, and broadcast.
     val stopWords = stopWordsInput.flatMap(x => x.split(",")).map(_.trim)
@@ -90,14 +90,14 @@ object w2vtfidfngram {
 
 
     //W2v
-    val input = sc.textFile("data/Article.txt").map(line => NGRAM.getNGrams(line,2).map(x=>x.mkString(" ")).toSeq)
+    val input = sc.textFile("data/mylab").map(line => NGRAM.getNGrams(line,2).map(x=>x.mkString(" ")).toSeq)
 
     val modelFolder = new File("synonyms")
 
     if (modelFolder.exists()) {
       val sameModel = Word2VecModel.load(sc, "synonyms")
 
-      dd1.take(4).foreach(f => {
+      dd1.foreach(f => {
         val synonyms = sameModel.findSynonyms(f._1, 2)
         println("Synonyms for ngram : " + f._1 )
         for ((synonym, cosineSimilarity) <- synonyms) {
@@ -107,7 +107,7 @@ object w2vtfidfngram {
     else {
       val word2vec = new Word2Vec().setVectorSize(1000).setMinCount(1)
       val model = word2vec.fit(input)
-      dd1.take(4).foreach(f => {
+      dd1.foreach(f => {
         // println(f)
         val synonyms = model.findSynonyms(f._1, 2)
         println("Synonyms for ngram: " + f._1 )

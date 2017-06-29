@@ -21,7 +21,7 @@ object tfidfngram {
     val c1 = new BufferedWriter(new FileWriter("output/tfidfngram.txt"))
 
     //Reading the Text File
-    val documents = sc.textFile("data/Article.txt")
+    val documents = sc.textFile("data/mylab")
 
     //Getting the Lemmatised form of the words in TextFile
     val documentseq = documents.map(f => {
@@ -74,7 +74,7 @@ object tfidfngram {
     })
 
     val dd1 = dd.distinct().sortBy(_._2, false)
-    val x=dd1.take(5)
+    val x=dd1.collect
     x.foreach(f => {
       c1.write(f._1 + " " +f._2)
       c1.write("\n")

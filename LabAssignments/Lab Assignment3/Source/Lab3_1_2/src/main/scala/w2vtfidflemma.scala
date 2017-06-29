@@ -20,7 +20,7 @@ object w2vtfidflemma {
     val c1 = new BufferedWriter(new FileWriter("output/w2vtfidflemma.txt"))
 
     //Reading the Text File
-    val documents = sparkcontext.textFile("data/Article.txt")
+    val documents = sparkcontext.textFile("data/mylab")
 
     val stopwordsfile = sparkcontext.textFile("data/englishstopwords.txt")
 
@@ -88,15 +88,13 @@ object w2vtfidflemma {
         c1.flush()
     })
 
+    val input = sparkcontext.textFile("data/mylab").map(line => CoreNLP.returnLemma(line).split(" ").toSeq)
 
-    //W2v
-    val input = sparkcontext.textFile("data/Article.txt").map(line => NGRAM.getNGrams(line,2).map(x=>x.mkString(" ")).toSeq)
-
-    val modelFolder = new File("tfidflemmasym")
+    val modelFolder = new File("sym1")
 
     if (modelFolder.exists()) {
       val sameModel = Word2VecModel.load(sparkcontext, "synonyms")
-      dd1.take(5).foreach(f => {
+      dd1.foreach(f => {
         val synonyms = sameModel.findSynonyms(f._1, 2)
         println("Synonyms for lemma: " + f._1 )
         for ((synonym, cosineSimilarity) <- synonyms) {
@@ -106,7 +104,7 @@ object w2vtfidflemma {
     else {
       val w2v = new Word2Vec().setVectorSize(1000).setMinCount(1)
       val model = w2v.fit(input)
-      dd1.take(5).foreach(f => {
+      dd1.foreach(f => {
         // println(f)
         val synonyms = model.findSynonyms(f._1, 2)
         println("Synonyms for lemma : " + f._1 )
@@ -115,7 +113,7 @@ object w2vtfidflemma {
         }
         model.getVectors.foreach(f => println(f._1 + ":" + f._2.length))
         // Save and load model
-        model.save(sparkcontext, "tfidflemmasym")
+        model.save(sparkcontext, "sym1")
       })
     }
   }
