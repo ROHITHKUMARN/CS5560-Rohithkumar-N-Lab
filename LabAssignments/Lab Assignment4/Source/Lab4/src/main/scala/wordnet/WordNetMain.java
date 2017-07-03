@@ -1,5 +1,6 @@
 package wordnet;
 
+import QAnsweringSystem.Lemmatization;
 import rita.RiWordNet;
 
 /**
@@ -12,14 +13,15 @@ public class WordNetMain {
         RiWordNet wordnet = new RiWordNet("/Users/satheeshchandra/Desktop/KDM/WordNet-3.0");
 
        // Demo finding parts of speech
-        String word = "run";
+
+        String word = "though";
         System.out.println("\nFinding parts of speech for " + word + ".");
         String[] partsofspeech = wordnet.getPos(word);
         for (int i = 0; i < partsofspeech.length; i++) {
             System.out.println(partsofspeech[i]);
         }
 
-        word = "eat";
+        word = "though";
         String pos = wordnet.getBestPos(word);
         System.out.println("\n\nDefinitions for " + word + ":");
         // Get an array of glosses for a word
@@ -30,7 +32,7 @@ public class WordNetMain {
         }
 
         // Demo finding a list of related words (synonyms)
-        word = "tired";
+        word = "though";
         String[] poss = wordnet.getPos(word);
         for (int j = 0; j < poss.length; j++) {
             System.out.println("\n\nSynonyms for " + word + " (pos: " + poss[j] + ")");
@@ -43,7 +45,7 @@ public class WordNetMain {
         // Demo finding a list of related words
         // X is Hypernym of Y if every Y is of type X
         // Hyponym is the inverse
-        word = "chair";
+        word = "obama";
         pos = wordnet.getBestPos(word);
         System.out.println("\n\nHyponyms for " + word + ":");
         String[] hyponyms = wordnet.getAllHyponyms(word, pos);

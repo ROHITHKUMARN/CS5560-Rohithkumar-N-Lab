@@ -65,7 +65,6 @@ public class Main {
                 String x = tokenlist.get(CoreAnnotations.NamedEntityTagAnnotation.class);
                 if (ners.contains(x)) {
                     if (hmap.get(x) == null) {
-                        //System.out.println(token);
                         TreeSet<String> s = new TreeSet<>();
                         s.add(tokenlist.originalText());
                         hmap.put(x,s);

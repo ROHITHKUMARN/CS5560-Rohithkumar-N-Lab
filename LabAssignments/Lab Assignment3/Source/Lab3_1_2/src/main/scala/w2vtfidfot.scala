@@ -1,4 +1,4 @@
-import java.io.File
+import java.io.{BufferedWriter, File, FileWriter}
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.feature.{HashingTF, IDF, Word2Vec, Word2VecModel}
@@ -17,6 +17,7 @@ object w2vtfidfot {
     val sparkConf = new SparkConf().setAppName("TFIDFW2V").setMaster("local[*]").
       set("spark.driver.memory", "6g").set("spark.executor.memory", "6g")
 
+    val a1 = new BufferedWriter(new FileWriter("output/tfidforiginal.txt"))
     val sc = new SparkContext(sparkConf)
 
     //Reading the Text File
@@ -114,6 +115,7 @@ object w2vtfidfot {
 
       })
     }
+
   }
 
 }
