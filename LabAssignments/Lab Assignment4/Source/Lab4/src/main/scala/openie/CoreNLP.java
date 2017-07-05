@@ -7,15 +7,20 @@ import java.util.Collection;
 
 public class CoreNLP
 {
-    public static String returnTriplets(String sentence) {
+    public static String returnTriplets(String s) {
 
-        Document doc = new Document(sentence);
-        String lemma="";
-        for (Sentence sent : doc.sentences()) {  // Will iterate over two sentences
-            Collection<Quadruple<String, String, String, Double>> l =sent.openie();
-                lemma+= l.toString();
+        String triples = "";
+        Document doc1 = new Document(s);
+        for (Sentence sen1 : doc1.sentences()) {
+            triples += sen1.openie();
+            triples = triples.replace("),",":");
+            triples = triples.replaceAll("[ \\( \\] \\[ \\) ]"," ");
+            // triples = triples.replace("[","")
+
+            triples += ":";
         }
-        return lemma;
+
+        return triples;
     }
 
 }

@@ -9,7 +9,7 @@ import scala.collection.immutable.HashMap
 object W2V {
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir", "F:\\winutils")
+    System.setProperty("hadoop.home.dir", "/usr/local/Cellar/apache-spark/2.1.0/bin/")
 
     val sparkConf = new SparkConf().setAppName("Task2ab").setMaster("local[*]").
       set("spark.driver.memory", "6g").set("spark.executor.memory", "6g")
@@ -116,11 +116,10 @@ object W2V {
         model.getVectors.foreach(f => println(f._1 + ":" + f._2.length))
 
         // Save and load model
-        model.save(sc, "synonyms")
+      //  model.save(sc, "synonyms")
 
       })
     }
-
     println(modelFolder)
 
   }

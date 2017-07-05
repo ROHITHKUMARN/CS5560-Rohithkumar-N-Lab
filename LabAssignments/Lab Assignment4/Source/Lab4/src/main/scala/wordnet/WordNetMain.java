@@ -3,9 +3,6 @@ package wordnet;
 import QAnsweringSystem.Lemmatization;
 import rita.RiWordNet;
 
-/**
- * Created by Mayanka on 28-Jun-16.
- */
 public class WordNetMain {
     public static void main(String args[])
     {

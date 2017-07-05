@@ -59,7 +59,7 @@ object SparkLDAMain {
 
     Logger.getRootLogger.setLevel(Level.WARN)
 
-    val topic_output = new PrintStream("data/Results.txt")
+    val topic_output = new PrintStream("output/Results.txt")
     // Load documents, and prepare them for LDA.
     val preprocessStart = System.nanoTime()
     val (corpus, vocabArray, actualNumTokens) =
@@ -141,28 +141,20 @@ object SparkLDAMain {
     topic_output.close()
     sc.stop()
   }
-
-  /**
-    * Load documents, tokenize them, create vocabulary, and prepare documents as term count vectors.
-    *
-    * @return (corpus, vocabulary as array, total token count in corpus)
-    */
   private def preprocess(sc: SparkContext,paths: Seq[String]): (RDD[(Long, Vector)], Array[String], Long) = {
 
-    //Reading Stop Words
-    val stopWords=sc.textFile("data/stopwords.txt").collect()
-    val stopWordsBroadCast=sc.broadcast(stopWords)
+    val stopWordsdocument=sc.textFile("src/data/stopwords").collect()
+    val stopWordsBroadCast=sc.broadcast(stopWordsdocument)
 
-    val df = sc.textFile(paths.mkString(",")).map(f => {
-      val lemmatised=CoreNLP.returnLemma(f)
-      val splitString = lemmatised.split(" ")
-      splitString
+    val data = sc.textFile(paths.mkString(",")).map(f => {
+      val lemma_rk=CoreNLP.returnLemma(f)
+      val string = lemma_rk.split(" ")
+      string
     })
 
-
-    val stopWordRemovedDF=df.map(f=>{
+    val stopWordRemovedDF=data.map(f=>{
       //Filtered numeric and special characters out
-      val filteredF=f.map(_.replaceAll("[^a-zA-Z]"," "))
+      val filtereddata=f.map(_.replaceAll("[^a-zA-Z]"," "))
         //Filter out the Stop Words
         .filter(ff=>{
         if(stopWordsBroadCast.value.contains(ff.toLowerCase))
@@ -170,25 +162,23 @@ object SparkLDAMain {
         else
           true
       })
-      filteredF
+      filtereddata
     })
 
     val dfseq=stopWordRemovedDF.map(_.toSeq)
 
-    //Creating an object of HashingTF Class
-    val hashingTF = new HashingTF(stopWordRemovedDF.count().toInt)  // VectorSize as the Size of the Vocab
+    val hTF_rk = new HashingTF(stopWordRemovedDF.count().toInt)  // VectorSize as the Size of the Vocab
 
-    //Creating Term Frequency of the document
-    val tf = hashingTF.transform(dfseq)
-    tf.cache()
+    val termfrequency_rk = hTF_rk.transform(dfseq)
+    termfrequency_rk.cache()
 
-    val idf = new IDF().fit(tf)
+    val inversedf_rk = new IDF().fit(termfrequency_rk)
 
-    //Creating Inverse Document Frequency
-    val tfidf = idf.transform(tf).zipWithIndex().map(_.swap)
+    val tfidf = inversedf_rk.transform(termfrequency_rk).zipWithIndex().map(_.swap)
 
-    val dff= stopWordRemovedDF.flatMap(f=>f)
-    val vocab=dff.distinct().collect()
-    (tfidf, vocab, dff.count()) // Vector, Vocab, total token count
+    val dataframe_rk= stopWordRemovedDF.flatMap(f=>f)
+
+    val vocab=dataframe_rk.distinct().collect()
+    (tfidf, vocab, dataframe_rk.count())
   }
 }

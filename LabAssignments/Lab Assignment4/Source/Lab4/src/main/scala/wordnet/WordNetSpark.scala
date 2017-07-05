@@ -3,29 +3,26 @@ package wordnet
 import org.apache.spark.{SparkConf, SparkContext}
 import rita.RiWordNet
 
-/**
-  * Created by Mayanka on 26-06-2017.
-  */
-object WordNetSpark {
+object WordNetSpark_RK {
   def main(args: Array[String]): Unit = {
     System.setProperty("hadoop.home.dir", "/usr/local/Cellar/apache-spark/2.1.0/bin/")
-    val conf = new SparkConf().setAppName("WordNetSpark").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
-    val sc = new SparkContext(conf)
-    val data=sc.textFile("src/data/sample")
-    val dd=data.map(f=>{
-      val wordnet = new RiWordNet("/Users/satheeshchandra/Desktop/KDM/WordNet-3.0")
-      val farr=f.split(" ")
-      for(x <- farr){
-      getSynoymns(wordnet,x)}
-    })
-    dd.collect.foreach(f=>println(f))
+    val config_rk = new SparkConf().setAppName("WordNetSpark").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
+    val sparkcontext_rk = new SparkContext(config_rk)
+    val mydata_rk=sparkcontext_rk.textFile("src/data/sample")
+    val datacollection=mydata_rk.map(f=>{
+      val wordnet_rk = new RiWordNet("/Users/satheeshchandra/Desktop/KDM/WordNet-3.0")
+      val array_rk=f.split(" ")
+      for(v <- array_rk){
+       val synonym_rk= getSynoynms_rk(wordnet_rk,v)
+        if(synonym_rk==null){}
+        else{
+      println("synonym for word " +v+"="+synonym_rk.mkString(" "))}}}
+    )
+    datacollection.collect
   }
-  def getSynoymns(wordnet:RiWordNet,word:String): Array[String] ={
-    println(word)
-    val pos=wordnet.getPos(word)
-    println(pos.mkString(" "))
-    val syn=wordnet.getAllSynonyms(word, pos(0))
-    syn
+  def getSynoynms_rk(wordnet:RiWordNet,word:String): Array[String] ={
+    val s=wordnet.getAllSynonyms(word,"n",10)
+    s
   }
 
 }
