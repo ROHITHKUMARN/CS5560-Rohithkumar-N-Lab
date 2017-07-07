@@ -10,7 +10,7 @@ object SparkOpenIE {
 
     val sparkcontext_rk = new SparkContext(sparkConfig_rk)
 
-    val input_rk = sparkcontext_rk.textFile("src/data/sample").map(line => {
+    val input_rk = sparkcontext_rk.textFile("Source/Lab4/src/data/sample").map(line => {
 
       val t= CoreNLP.returnTriplets(line)
       t

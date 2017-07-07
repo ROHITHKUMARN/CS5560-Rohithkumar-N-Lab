@@ -23,7 +23,7 @@ object QandAsystem {
     set("spark.driver.memory", "6g").set("spark.executor.memory", "6g")
   val sparkcontext_rk = new SparkContext(sparkConfig_rk)
 
-  val stopWordsfile_rk = sparkcontext_rk.textFile("src/data/stopwords")
+  val stopWordsfile_rk = sparkcontext_rk.textFile("Source/Lab4/src/data/stopwords")
 
   val stopwordslist_rk = stopWordsfile_rk.flatMap(x=>x.split(",")).map(_.trim)
   val broadcastStopWords = sparkcontext_rk.broadcast(stopwordslist_rk.collect.toSet)
@@ -53,7 +53,7 @@ object QandAsystem {
 
   def main(args: Array[String]) {
 
-    val input = sparkcontext_rk.textFile("src/data/sample")
+    val input = sparkcontext_rk.textFile("Source/Lab4/src/data/mydataset")
 
     val namedentitieslist_rk = input.flatMap(coreNLP(_))
 

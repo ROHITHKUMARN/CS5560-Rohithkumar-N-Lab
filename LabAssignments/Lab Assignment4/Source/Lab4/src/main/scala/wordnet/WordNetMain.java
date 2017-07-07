@@ -29,7 +29,7 @@ public class WordNetMain {
         }
 
         // Demo finding a list of related words (synonyms)
-        word = "though";
+        word = "car";
         String[] poss = wordnet.getPos(word);
         for (int j = 0; j < poss.length; j++) {
             System.out.println("\n\nSynonyms for " + word + " (pos: " + poss[j] + ")");
@@ -75,9 +75,9 @@ public class WordNetMain {
             }
         }
 
-        //System.out.println("\n\nHypernym Tree for " + start);
-        //int[] ids = wordnet.getSenseIds(start,wordnet.NOUN);
-        //wordnet.printHypernymTree(ids[0]);
+       // System.out.println("\n\nHypernym Tree for " + start);
+       // int[] ids = wordnet.getSenseIds(start,wordnet.NOUN);
+       // wordnet.printHypernymTree(ids[0]);
 
     }
 }

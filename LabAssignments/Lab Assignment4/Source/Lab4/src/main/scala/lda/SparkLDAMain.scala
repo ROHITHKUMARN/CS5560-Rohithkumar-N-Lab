@@ -143,7 +143,7 @@ object SparkLDAMain {
   }
   private def preprocess(sc: SparkContext,paths: Seq[String]): (RDD[(Long, Vector)], Array[String], Long) = {
 
-    val stopWordsdocument=sc.textFile("src/data/stopwords").collect()
+    val stopWordsdocument=sc.textFile("Source/Lab4/src/data/stopwords").collect()
     val stopWordsBroadCast=sc.broadcast(stopWordsdocument)
 
     val data = sc.textFile(paths.mkString(",")).map(f => {

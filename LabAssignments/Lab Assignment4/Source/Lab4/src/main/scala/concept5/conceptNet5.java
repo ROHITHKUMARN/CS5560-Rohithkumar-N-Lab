@@ -22,7 +22,7 @@ public class conceptNet5 {
         HttpClient httpClient_rk = new DefaultHttpClient();
         String line_rk = "";
         try {
-            HttpGet httpGetRequest = new HttpGet("http://conceptnet5.media.mit.edu/data/5.4/search?rel=/r/PartOf&end=/c/en/aeroplane&limit=10");
+            HttpGet httpGetRequest = new HttpGet("http://conceptnet5.media.mit.edu/data/5.4/search?rel=/r/PartOf&end=/c/en/car&limit=10");
             HttpResponse httpResponse = httpClient_rk.execute(httpGetRequest);
 
             System.out.println("----------------------------------------");
@@ -49,7 +49,7 @@ public class conceptNet5 {
             JSONArray jsonArray_rk = (JSONArray) jsonObject_rk.get("edges");
             for (int i_rk = 0; i_rk < jsonArray_rk.size(); i_rk++) {
                 JSONObject object = (JSONObject) jsonArray_rk.get(i_rk);
-                //System.out.println(ob.get("surfaceText"));
+                System.out.println(object.get("surfaceText"));
                 fileWriter_rk.write(object.get("surfaceText").toString());
                 fileWriter_rk.write("\n");
                 fileWriter_rk.flush();

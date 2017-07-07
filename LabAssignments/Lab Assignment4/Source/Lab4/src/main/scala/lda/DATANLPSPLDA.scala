@@ -142,7 +142,7 @@ object DATANLPSPLDA {
 
   private def preprocess(sc: SparkContext,paths: Seq[String]): (RDD[(Long, Vector)], Array[String], Long) = {
 
-    val stopWords_rk =sc.textFile("src/data/stopwords").collect()
+    val stopWords_rk =sc.textFile("Source/Lab4/src/data/stopwords").collect()
     val stopWordsBroadCast_rk =sc.broadcast(stopWords_rk)
     val dataset_rk = sc.textFile(paths.mkString(",")).map(f => {
       val lemmatized_rk=CoreNLP.returnLemma(f)
