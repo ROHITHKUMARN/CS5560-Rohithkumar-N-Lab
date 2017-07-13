@@ -130,18 +130,18 @@ object SparkNaiveBayes {
     })
 
 
-//    val stopWordRemovedDF=df.map(f=>{
-//      //Filtered numeric and special characters out
-//      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
-//        //Filter out the Stop Words
-//        .filter(ff=>{
-//        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
-//          false
-//        else
-//          true
-//      })
-//      (f._1,filteredF)
-//    })
+    val stopWordRemovedDF=df.map(f=>{
+      //Filtered numeric and special characters out
+      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
+        //Filter out the Stop Words
+        .filter(ff=>{
+        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
+          false
+        else
+          true
+      })
+      (f._1,filteredF)
+    })
 
     val data=df.map(f=>{(f._1,f._2.mkString(" "))})
     val dfseq=df.map(_._2.toSeq)
