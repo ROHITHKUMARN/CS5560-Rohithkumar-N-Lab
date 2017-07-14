@@ -72,6 +72,7 @@ object SparkRandomForest {
 
       new LabeledPoint(hm.get(class_name).get.toDouble, f._2)
     })
+    featureVector.saveAsTextFile("data/rt_data_fv")
     val splits = featureVector.randomSplit(Array(0.6, 0.4), seed = 11L)
     val training = splits(0)
     val test = splits(1)

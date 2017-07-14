@@ -89,6 +89,7 @@ object SparkNaiveBayes {
 
       new LabeledPoint(hm.get(class_name).get.toDouble, f._2)
     })
+    featureVector.saveAsTextFile("data/nb_data_fv")
     val splits = featureVector.randomSplit(Array(0.6, 0.4), seed = 11L)
     val training = splits(0)
     val test = splits(1)
@@ -123,25 +124,25 @@ object SparkNaiveBayes {
     val stopWordsBroadCast=sc.broadcast(stopWords)
 
     val df = sc.wholeTextFiles(paths.mkString(",")).map(f => {
-     // val lemmatised=CoreNLP.returnLemma(f._2)
-      val lemmatised=f._2
+     val lemmatised=CoreNLP.returnLemma(f._2)
+      //val lemmatised=f._2
       val splitString = lemmatised.split(" ")
       (f._1,splitString)
     })
 
 
-    val stopWordRemovedDF=df.map(f=>{
-      //Filtered numeric and special characters out
-      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
-        //Filter out the Stop Words
-        .filter(ff=>{
-        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
-          false
-        else
-          true
-      })
-      (f._1,filteredF)
-    })
+//    val stopWordRemovedDF=df.map(f=>{
+//      //Filtered numeric and special characters out
+//      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
+//        //Filter out the Stop Words
+//        .filter(ff=>{
+//        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
+//          false
+//        else
+//          true
+//      })
+//      (f._1,filteredF)
+//    })
 
     val data=df.map(f=>{(f._1,f._2.mkString(" "))})
     val dfseq=df.map(_._2.toSeq)
