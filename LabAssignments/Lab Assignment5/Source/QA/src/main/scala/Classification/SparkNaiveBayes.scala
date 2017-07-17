@@ -22,11 +22,11 @@ import java.io.PrintStream
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.feature.{CountVectorizer, CountVectorizerModel, RegexTokenizer, StopWordsRemover}
+import org.apache.spark.mllib.classification.NaiveBayes
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
 import org.apache.spark.mllib.feature.{HashingTF, IDF}
 import org.apache.spark.mllib.linalg.Vector
 import org.apache.spark.mllib.regression.LabeledPoint
-import org.apache.spark.mllib.tree.DecisionTree
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -34,7 +34,7 @@ import scopt.OptionParser
 
 import scala.collection.immutable.HashMap
 
-object SparkDecisionTree {
+object SparkNaiveBayes {
 
   private case class Params(
                              input: Seq[String] = Seq.empty
@@ -43,8 +43,8 @@ object SparkDecisionTree {
   def main(args: Array[String]) {
     val defaultParams = Params()
 
-    val parser = new OptionParser[Params]("KMeansExample") {
-      head("KMeansExample: an example KMeans app for plain text data.")
+    val parser = new OptionParser[Params]("NBExample") {
+      head("NBExample: an example NB app for plain text data.")
       arg[String]("<input>...")
         .text("input paths (directories) to plain text corpora." +
           "  Each text file line should hold 1 document.")
@@ -63,15 +63,15 @@ object SparkDecisionTree {
 
   private def run(params: Params) {
     System.setProperty("hadoop.home.dir", "/usr/local/Cellar/apache-spark/2.1.0/bin/")
-    val conf = new SparkConf().setAppName(s"KMeansExample with $params").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
+    val conf = new SparkConf().setAppName(s"NBExample with $params").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
     val sc = new SparkContext(conf)
 
     Logger.getRootLogger.setLevel(Level.WARN)
 
-    val topic_output = new PrintStream("output/data_raw_tfidf_DT_Results.txt")
-    // Load documents, and prepare them for KMeans.
+    val topic_output = new PrintStream("data/data_raw_tfidf_NB_Results.txt")
+    // Load documents, and prepare them for NB.
     val preprocessStart = System.nanoTime()
-    val (inputVector, corpusData, vocabArray) =
+    val (inputVector, corpusData, vocabArrayCount) =
       preprocess(sc, params.input)
 
     var hm = new HashMap[String, Int]()
@@ -87,21 +87,14 @@ object SparkDecisionTree {
       val location_array = f._1._1.split("/")
       val class_name = location_array(location_array.length - 2)
 
-      new LabeledPoint(mapping.value.get(class_name).get.toDouble, f._2)
+      new LabeledPoint(hm.get(class_name).get.toDouble, f._2)
     })
-    featureVector.saveAsTextFile("data/fv_data_DT")
+    featureVector.saveAsTextFile("data/nb_data_fv")
     val splits = featureVector.randomSplit(Array(0.6, 0.4), seed = 11L)
     val training = splits(0)
     val test = splits(1)
-    val numClasses = IMAGE_CATEGORIES.length
-    val categoricalFeaturesInfo = Map[Int, Int]()
-    val impurity = "gini"
-    val maxDepth = 5
-    val maxBins = 32
 
-    val model = DecisionTree.trainClassifier(training, numClasses, categoricalFeaturesInfo,
-      impurity, maxDepth, maxBins)
-
+    val model = NaiveBayes.train(training, lambda = 1.0, modelType = "multinomial")
 
     val predictionAndLabel = test.map(p => (model.predict(p.features), p.label))
 
@@ -131,11 +124,12 @@ object SparkDecisionTree {
     val stopWordsBroadCast=sc.broadcast(stopWords)
 
     val df = sc.wholeTextFiles(paths.mkString(",")).map(f => {
-     //val lemmatised=CoreNLP.returnLemma(f._2)
-      val lemmatised=f._2
+     val lemmatised=Classification.Lemmatisation.returnLemma(f._2)
+      //val lemmatised=f._2
       val splitString = lemmatised.split(" ")
       (f._1,splitString)
     })
+
 
 //    val stopWordRemovedDF=df.map(f=>{
 //      //Filtered numeric and special characters out
@@ -164,9 +158,6 @@ object SparkDecisionTree {
     //Creating Inverse Document Frequency
     val tfidf1 = idf.transform(tf)
     tfidf1.cache()
-
-
-
     val dff= df.flatMap(f=>f._2)
     val vocab=dff.distinct().collect()
     (tfidf1, data, dff.count()) // Vector, Data, total token count

@@ -1,21 +1,4 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-package classification
+package Classification
 
 import java.io.PrintStream
 
@@ -68,14 +51,13 @@ object SparkDecisionTree {
 
     Logger.getRootLogger.setLevel(Level.WARN)
 
-    val topic_output = new PrintStream("output/data_raw_tfidf_DT_Results.txt")
+    val topic_output = new PrintStream("output/SDT_Classification")
     // Load documents, and prepare them for KMeans.
     val preprocessStart = System.nanoTime()
-    val (inputVector, corpusData, vocabArray) =
-      preprocess(sc, params.input)
+    val (inputVector, corpusData, vocabArray) = preprocess(sc, params.input)
 
     var hm = new HashMap[String, Int]()
-    val IMAGE_CATEGORIES = List("sci.crypt", "sci.electronics", "sci.med", "sci.space")
+    val IMAGE_CATEGORIES = List("gym", "aerobics", "meditation", "yoga")
     var index = 0
     IMAGE_CATEGORIES.foreach(f => {
       hm += IMAGE_CATEGORIES(index) -> index
@@ -89,7 +71,7 @@ object SparkDecisionTree {
 
       new LabeledPoint(mapping.value.get(class_name).get.toDouble, f._2)
     })
-    featureVector.saveAsTextFile("data/fv_data_DT")
+    featureVector.saveAsTextFile("data/SDTFV")
     val splits = featureVector.randomSplit(Array(0.6, 0.4), seed = 11L)
     val training = splits(0)
     val test = splits(1)
@@ -127,31 +109,31 @@ object SparkDecisionTree {
   private def preprocess(sc: SparkContext,paths: Seq[String]): (RDD[Vector], RDD[(String,String)], Long) = {
 
     //Reading Stop Words
-    val stopWords=sc.textFile("data/stopwords.txt").collect()
+    val stopWords=sc.textFile("src/data/stopwords").collect()
     val stopWordsBroadCast=sc.broadcast(stopWords)
 
     val df = sc.wholeTextFiles(paths.mkString(",")).map(f => {
-     //val lemmatised=CoreNLP.returnLemma(f._2)
-      val lemmatised=f._2
+     val lemmatised=Classification.Lemmatisation.returnLemma(f._2)
+      //val lemmatised=f._2
       val splitString = lemmatised.split(" ")
       (f._1,splitString)
     })
 
-//    val stopWordRemovedDF=df.map(f=>{
-//      //Filtered numeric and special characters out
-//      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
-//        //Filter out the Stop Words
-//        .filter(ff=>{
-//        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
-//          false
-//        else
-//          true
-//      })
-//      (f._1,filteredF)
-//    })
+    val stopWordRemovedDF=df.map(f=>{
+      //Filtered numeric and special characters out
+      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
+        //Filter out the Stop Words
+        .filter(ff=>{
+        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
+          false
+        else
+          true
+      })
+      (f._1,filteredF)
+    })
 
-    val data=df.map(f=>{(f._1,f._2.mkString(" "))})
-    val dfseq=df.map(_._2.toSeq)
+    val data=stopWordRemovedDF.map(f=>{(f._1,f._2.mkString(" "))})
+    val dfseq=stopWordRemovedDF.map(_._2.toSeq)
 
     //Creating an object of HashingTF Class
     val hashingTF = new HashingTF(df.count().toInt)  // VectorSize as the Size of the Vocab
@@ -165,11 +147,9 @@ object SparkDecisionTree {
     val tfidf1 = idf.transform(tf)
     tfidf1.cache()
 
-
-
     val dff= df.flatMap(f=>f._2)
     val vocab=dff.distinct().collect()
-    (tfidf1, data, dff.count()) // Vector, Data, total token count
+    (tf, data, dff.count()) // Vector, Data, total token count
   }
 }
 

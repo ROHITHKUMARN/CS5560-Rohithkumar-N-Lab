@@ -1,19 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 package classification
 
@@ -26,7 +10,7 @@ import org.apache.spark.mllib.evaluation.MulticlassMetrics
 import org.apache.spark.mllib.feature.{HashingTF, IDF}
 import org.apache.spark.mllib.linalg.Vector
 import org.apache.spark.mllib.regression.LabeledPoint
-import org.apache.spark.mllib.tree.DecisionTree
+import org.apache.spark.mllib.tree.RandomForest
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -34,7 +18,7 @@ import scopt.OptionParser
 
 import scala.collection.immutable.HashMap
 
-object SparkDecisionTree {
+object SparkRandomForest {
 
   private case class Params(
                              input: Seq[String] = Seq.empty
@@ -43,8 +27,8 @@ object SparkDecisionTree {
   def main(args: Array[String]) {
     val defaultParams = Params()
 
-    val parser = new OptionParser[Params]("KMeansExample") {
-      head("KMeansExample: an example KMeans app for plain text data.")
+    val parser = new OptionParser[Params]("RFExample") {
+      head("RFExample: an example RF app for plain text data.")
       arg[String]("<input>...")
         .text("input paths (directories) to plain text corpora." +
           "  Each text file line should hold 1 document.")
@@ -63,16 +47,15 @@ object SparkDecisionTree {
 
   private def run(params: Params) {
     System.setProperty("hadoop.home.dir", "/usr/local/Cellar/apache-spark/2.1.0/bin/")
-    val conf = new SparkConf().setAppName(s"KMeansExample with $params").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
+    val conf = new SparkConf().setAppName(s"RFExample with $params").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
     val sc = new SparkContext(conf)
 
     Logger.getRootLogger.setLevel(Level.WARN)
 
-    val topic_output = new PrintStream("output/data_raw_tfidf_DT_Results.txt")
-    // Load documents, and prepare them for KMeans.
+    val topic_output = new PrintStream("data/data_raw_tfidif_RF_Results.txt")
+    // Load documents, and prepare them for RF.
     val preprocessStart = System.nanoTime()
-    val (inputVector, corpusData, vocabArray) =
-      preprocess(sc, params.input)
+    val (inputVector, corpusData, vocabArray) = preprocess(sc, params.input)
 
     var hm = new HashMap[String, Int]()
     val IMAGE_CATEGORIES = List("sci.crypt", "sci.electronics", "sci.med", "sci.space")
@@ -87,20 +70,21 @@ object SparkDecisionTree {
       val location_array = f._1._1.split("/")
       val class_name = location_array(location_array.length - 2)
 
-      new LabeledPoint(mapping.value.get(class_name).get.toDouble, f._2)
+      new LabeledPoint(hm.get(class_name).get.toDouble, f._2)
     })
-    featureVector.saveAsTextFile("data/fv_data_DT")
+    featureVector.saveAsTextFile("data/rt_data_fv")
     val splits = featureVector.randomSplit(Array(0.6, 0.4), seed = 11L)
     val training = splits(0)
     val test = splits(1)
     val numClasses = IMAGE_CATEGORIES.length
     val categoricalFeaturesInfo = Map[Int, Int]()
     val impurity = "gini"
+    val featureSubSet = "auto"
     val maxDepth = 5
     val maxBins = 32
+    val numTrees = 10
 
-    val model = DecisionTree.trainClassifier(training, numClasses, categoricalFeaturesInfo,
-      impurity, maxDepth, maxBins)
+    val model = RandomForest.trainClassifier(training, numClasses, categoricalFeaturesInfo, numTrees, featureSubSet, impurity, maxDepth, maxDepth)
 
 
     val predictionAndLabel = test.map(p => (model.predict(p.features), p.label))
@@ -119,6 +103,7 @@ object SparkDecisionTree {
 
     sc.stop()
   }
+
   /**
     * Load documents, tokenize them, create vocabulary, and prepare documents as term count vectors.
     *
@@ -131,12 +116,13 @@ object SparkDecisionTree {
     val stopWordsBroadCast=sc.broadcast(stopWords)
 
     val df = sc.wholeTextFiles(paths.mkString(",")).map(f => {
-     //val lemmatised=CoreNLP.returnLemma(f._2)
+      //val lemmatised=Lemmatisation.returnLemma(f._2)
       val lemmatised=f._2
       val splitString = lemmatised.split(" ")
       (f._1,splitString)
     })
 
+//
 //    val stopWordRemovedDF=df.map(f=>{
 //      //Filtered numeric and special characters out
 //      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))

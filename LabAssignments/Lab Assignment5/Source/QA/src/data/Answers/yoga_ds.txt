@@ -1,4 +1,4 @@
- yoga includes breath control, meditation and bodily postures.
+yoga includes breath control, meditation and bodily postures.
 yoga originated in India.
 beginner poses in yoga are bridge pose, cat pose, fish pose, cobra pose and gate pose
 bridge pose can cause neck sprain.
@@ -27,5 +27,9 @@ warrior pose should not be done if you have diarrhea or high blood pressure
 child pose is good for improving stamina
 bridge pose is good for heart
 cobra pose and bridge pose are good for lungs
-aerobics should not be done by people which breathing problems
+aerobics should not be done by people with breathing problems
+
+
+
+
 
