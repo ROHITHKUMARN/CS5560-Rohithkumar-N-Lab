@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.servicemix.bundles:org.apache.servicemix.bundles.aopalliance:1.0_6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.servicemix.bundles/org.apache.servicemix.bundles.aopalliance/bundles/org.apache.servicemix.bundles.aopalliance-1.0_6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.servicemix.bundles/org.apache.servicemix.bundles.aopalliance/srcs/org.apache.servicemix.bundles.aopalliance-1.0_6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

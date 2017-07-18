@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.sourceforge.owlapi:owlapi-osgidistribution:4.2.8:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.owlapi/owlapi-osgidistribution/bundles/owlapi-osgidistribution-4.2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.owlapi/owlapi-osgidistribution/srcs/owlapi-osgidistribution-4.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

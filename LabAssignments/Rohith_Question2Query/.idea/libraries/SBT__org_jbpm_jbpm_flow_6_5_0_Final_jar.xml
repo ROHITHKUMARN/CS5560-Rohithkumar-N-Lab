@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.jbpm:jbpm-flow:6.5.0.Final:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.jbpm/jbpm-flow/bundles/jbpm-flow-6.5.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.jbpm/jbpm-flow/srcs/jbpm-flow-6.5.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

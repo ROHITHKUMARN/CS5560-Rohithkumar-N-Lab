@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.springframework.osgi:spring-osgi-core:1.2.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.osgi/spring-osgi-core/bundles/spring-osgi-core-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.osgi/spring-osgi-core/srcs/spring-osgi-core-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

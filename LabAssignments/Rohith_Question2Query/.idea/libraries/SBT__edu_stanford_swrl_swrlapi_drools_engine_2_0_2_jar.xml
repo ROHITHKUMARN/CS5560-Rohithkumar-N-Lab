@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: edu.stanford.swrl:swrlapi-drools-engine:2.0.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/edu.stanford.swrl/swrlapi-drools-engine/bundles/swrlapi-drools-engine-2.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/edu.stanford.swrl/swrlapi-drools-engine/srcs/swrlapi-drools-engine-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

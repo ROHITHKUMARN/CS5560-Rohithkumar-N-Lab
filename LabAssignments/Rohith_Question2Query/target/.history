@@ -1,0 +1,10 @@
+sbt "runMain edu.knowitall.openie.OpenIECli"
+cd ~/Documents/Github/Question2Query
+sbt "runMain edu.knowitall.openie.OpenIECli"
+sbt compile
+sbt clean
+sbt->clean
+sbt:clean
+sbt:compile
+sbt:compile openie
+sbt:compile::openie

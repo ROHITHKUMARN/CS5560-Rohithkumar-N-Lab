@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: edu.stanford.swrl:swrltab:1.1.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/edu.stanford.swrl/swrltab/jars/swrltab-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/edu.stanford.swrl/swrltab/srcs/swrltab-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

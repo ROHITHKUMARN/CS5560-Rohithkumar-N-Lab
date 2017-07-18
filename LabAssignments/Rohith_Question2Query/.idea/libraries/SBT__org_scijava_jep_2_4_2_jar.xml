@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.scijava:jep:2.4.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scijava/jep/jars/jep-2.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scijava/jep/srcs/jep-2.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
