@@ -2,26 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08071cc3-419b-4e3f-a2e9-a4f554ea5c89" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/output/openie/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/output/openie/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/output/openie/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/output/openie/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/output/openie/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/src/data/mydataset/gym.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/src/data/mydataset/yoga_ds.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/DATANLPSPLDA.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/openie/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/openie/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/openie/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/openie/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/openie/part-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_4_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_4_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_4_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_code_findbugs_jsr305_1_3_9_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_guava_guava_14_0_1_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_inject_guice_3_0_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__commons_io_commons_io_2_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_jcl_over_slf4j_1_7_10_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_12_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_tukaani_xz_1_0_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$023e6e305fd9c1b25107$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$023e6e305fd9c1b25107$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$023e6e305fd9c1b25107$$anonfun$$sbtdef$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$023e6e305fd9c1b25107$$anonfun$$sbtdef$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$023e6e305fd9c1b25107$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$023e6e305fd9c1b25107.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$023e6e305fd9c1b25107.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$120b55f30df94ea4f4ef$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$120b55f30df94ea4f4ef$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$120b55f30df94ea4f4ef.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$120b55f30df94ea4f4ef.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$4d878e7b85d241c29114$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$4d878e7b85d241c29114$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$4d878e7b85d241c29114.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$4d878e7b85d241c29114.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$63cac1986d067f714528$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$63cac1986d067f714528$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$63cac1986d067f714528.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$63cac1986d067f714528.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$ba66ffd415b479e57be9$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$ba66ffd415b479e57be9$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$ba66ffd415b479e57be9.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$ba66ffd415b479e57be9.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/src/data/sample" afterPath="$PROJECT_DIR$/Source/Lab4/src/data/sample" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/SparkOpenIE.scala" afterPath="$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/SparkOpenIE.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/.idea/modules/lab4.iml" afterPath="$PROJECT_DIR$/Source/Lab4/.idea/modules/lab4.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/build.sbt" afterPath="$PROJECT_DIR$/Source/Lab4/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-docs.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-optional.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-plugin.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-pom.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-provided.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-scala-tool.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-sources.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-docs.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-optional.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-plugin.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-pom.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-provided.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-sources.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Rohith_Question2Query/data/catalog-v001.xml" afterPath="$PROJECT_DIR$/../Rohith_Question2Query/data/catalog-v001.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/Source/Lab4/target/" />
     <ignored path="$PROJECT_DIR$/Source/Lab4/project/project/target/" />
     <ignored path="$PROJECT_DIR$/Source/Lab4/project/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +149,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,11 +157,9 @@
       <file leaf-file-name="OPENIE.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/OPENIE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="180">
               <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,11 +174,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sample" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Lab4/src/data/sample">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Source/Lab4/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -115,17 +208,7 @@
         <entry file="file://$PROJECT_DIR$/output/openie/part-00001">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DATANLPSPLDA.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
-              <caret line="142" column="65" lean-forward="false" selection-start-line="142" selection-start-column="65" selection-end-line="142" selection-end-column="65" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,26 +219,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gym.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yoga_ds.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -198,13 +261,14 @@
         <option value="$PROJECT_DIR$/output/openie/part-00001" />
         <option value="$PROJECT_DIR$/output/openie/part-00000" />
         <option value="$PROJECT_DIR$/Source/Lab4/src/data/sample" />
+        <option value="$PROJECT_DIR$/Source/Lab4/build.sbt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="736" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,6 +287,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -356,29 +421,10 @@
               <option name="myItemId" value="Lab Assignment4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab Assignment4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab Assignment4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -859,7 +905,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1499457724528" />
+    <option name="lastUpdateTimestamp" value="1500418934841" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -902,37 +948,39 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="736" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4984472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30613893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30546874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -949,14 +997,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt" />
     <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/SparkOpenIE.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -969,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,9 +1017,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -999,14 +1037,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="144" column="65" lean-forward="false" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala" />
     <entry file="file://$PROJECT_DIR$/output/conceptnet5">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1015,22 +1046,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt" />
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt" />
     <entry file="file://$PROJECT_DIR$/output/openie/part-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1059,14 +1076,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="144" column="65" lean-forward="false" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala" />
     <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1965">
@@ -1081,22 +1091,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt" />
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt" />
     <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/wordnet/WordNetSpark.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1108,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,14 +1128,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="144" column="65" lean-forward="false" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala" />
     <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2085">
@@ -1155,22 +1143,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt" />
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt" />
     <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/wordnet/WordNetSpark.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1182,14 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Lab4/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1246,18 +1212,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="142" column="65" lean-forward="false" selection-start-line="142" selection-start-column="65" selection-end-line="142" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/src/main/scala/Clustering/DATANLPSPLDA.scala" />
     <entry file="file://$PROJECT_DIR$/output/conceptnet5">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1266,27 +1224,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/gym.txt" />
+    <entry file="file://$PROJECT_DIR$/../../../Clustering_Classification/mydata/mydataset/yoga_ds.txt" />
     <entry file="file://$PROJECT_DIR$/Source/Lab4/src/data/stopwords">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,19 +1237,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/OPENIE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="180">
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,7 +1268,7 @@
     <entry file="file://$PROJECT_DIR$/output/openie/part-00001">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1338,6 +1277,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Lab4/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding />
         </state>
       </provider>
