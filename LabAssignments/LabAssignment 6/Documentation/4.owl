@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mayanka/ontologies/2017/6/family#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mayanka/ontologies/2017/6/family#">
+    <Prefix name="" IRI="http://www.semanticweb.org/mayanka/ontologies/2017/6/family#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="hasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Country"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hindi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasMother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasCountry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Parent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="India"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OffSpring"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="fullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Language"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Rohith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasGender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="USA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Father"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasParent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mother"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="English"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Religion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Srinivas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasFather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Daughter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasChild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ethnicity"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="Daughter"/>
+        <ObjectIntersectionOf>
+            <Class IRI="Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasGender"/>
+                <Class IRI="Gender"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasParent"/>
+                <Class IRI="Person"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="Father"/>
+        <ObjectIntersectionOf>
+            <Class IRI="Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasGender"/>
+                <Class IRI="Gender"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="Mother"/>
+        <ObjectIntersectionOf>
+            <Class IRI="Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasGender"/>
+                <Class IRI="Gender"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="OffSpring"/>
+        <ObjectIntersectionOf>
+            <Class IRI="Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasGender"/>
+                <Class IRI="Gender"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasParent"/>
+                <Class IRI="Person"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="Parent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasGender"/>
+                <Class IRI="Gender"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="Son"/>
+        <ObjectIntersectionOf>
+            <Class IRI="Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasGender"/>
+                <Class IRI="Gender"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="hasParent"/>
+                <Class IRI="Person"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="Country"/>
+        <Class IRI="Ethnicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Daughter"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Father"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Language"/>
+        <Class IRI="Ethnicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mother"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OffSpring"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Parent"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Religion"/>
+        <Class IRI="Ethnicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Son"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="Gender"/>
+        <NamedIndividual IRI="Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Gender"/>
+        <NamedIndividual IRI="Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Person"/>
+        <NamedIndividual IRI="Mary"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasLanguage"/>
+        <NamedIndividual IRI="India"/>
+        <NamedIndividual IRI="Hindi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasGender"/>
+        <NamedIndividual IRI="Mary"/>
+        <NamedIndividual IRI="Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasGender"/>
+        <NamedIndividual IRI="Rohith"/>
+        <NamedIndividual IRI="Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasChild"/>
+        <NamedIndividual IRI="Srinivas"/>
+        <NamedIndividual IRI="Rohith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasGender"/>
+        <NamedIndividual IRI="Srinivas"/>
+        <NamedIndividual IRI="Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasLanguage"/>
+        <NamedIndividual IRI="USA"/>
+        <NamedIndividual IRI="English"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="Language"/>
+        <NamedIndividual IRI="English"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="Language"/>
+        <NamedIndividual IRI="Hindi"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hindi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="fullName"/>
+        <NamedIndividual IRI="Mary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mary Jost</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="hasChild"/>
+        <ObjectProperty IRI="hasParent"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hasGender"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hasLanguage"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasChild"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasCountry"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasFather"/>
+        <Class IRI="Daughter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasFather"/>
+        <Class IRI="OffSpring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasFather"/>
+        <Class IRI="Son"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasGender"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasLanguage"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="Daughter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="Father"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="Mother"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="OffSpring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="Son"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Daughter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Father"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Mother"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="OffSpring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Son"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasChild"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasCountry"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="hasCountry"/>
+            <Class IRI="Country"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasFather"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasFather"/>
+            <Class IRI="Father"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasGender"/>
+        <Class IRI="Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasLanguage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasLanguage"/>
+            <Class IRI="Language"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="Daughter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="Mother"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasMother"/>
+        <Class IRI="Parent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Father"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Mother"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Parent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="ID"/>
+        <Class IRI="Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="fullName"/>
+        <Class IRI="Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="fullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
