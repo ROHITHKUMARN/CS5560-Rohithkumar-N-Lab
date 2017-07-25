@@ -6070,7 +6070,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 3100ms :: artifacts dl 81ms
+[debug] :: resolution report :: resolve 2870ms :: artifacts dl 79ms
 [debug] 	report for default#lab4-build;0.1-SNAPSHOT compile produced in /Users/satheeshchandra/Documents/Github/CS5560-Rohithkumar-Nagulapati-LabSubmissio/LabAssignments/Lab Assignment4/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile.xml
 [debug] 	report for default#lab4-build;0.1-SNAPSHOT runtime produced in /Users/satheeshchandra/Documents/Github/CS5560-Rohithkumar-Nagulapati-LabSubmissio/LabAssignments/Lab Assignment4/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime.xml
 [debug] 	report for default#lab4-build;0.1-SNAPSHOT test produced in /Users/satheeshchandra/Documents/Github/CS5560-Rohithkumar-Nagulapati-LabSubmissio/LabAssignments/Lab Assignment4/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test.xml
@@ -6084,5 +6084,5 @@
 [debug] 	report for default#lab4-build;0.1-SNAPSHOT docs produced in /Users/satheeshchandra/Documents/Github/CS5560-Rohithkumar-Nagulapati-LabSubmissio/LabAssignments/Lab Assignment4/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-docs.xml
 [debug] 	report for default#lab4-build;0.1-SNAPSHOT pom produced in /Users/satheeshchandra/Documents/Github/CS5560-Rohithkumar-Nagulapati-LabSubmissio/LabAssignments/Lab Assignment4/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-pom.xml
 [debug] 	report for default#lab4-build;0.1-SNAPSHOT scala-tool produced in /Users/satheeshchandra/Documents/Github/CS5560-Rohithkumar-Nagulapati-LabSubmissio/LabAssignments/Lab Assignment4/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-scala-tool.xml
-[debug] 	resolve done (3100ms resolve - 81ms download)
+[debug] 	resolve done (2870ms resolve - 79ms download)
 [info] Done updating.

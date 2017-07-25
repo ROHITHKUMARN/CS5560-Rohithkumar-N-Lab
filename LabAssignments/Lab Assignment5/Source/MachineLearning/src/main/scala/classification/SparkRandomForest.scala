@@ -69,7 +69,6 @@ object SparkRandomForest {
     val featureVector = data.map(f => {
       val location_array = f._1._1.split("/")
       val class_name = location_array(location_array.length - 2)
-
       new LabeledPoint(hm.get(class_name).get.toDouble, f._2)
     })
     featureVector.saveAsTextFile("data/rt_data_fv")

@@ -18,8 +18,13 @@ public class CoreNLP {
             for (int i = 0; i < lstring.size() ; i++) {
                 lemma+= lstring.get(i) +" ";
             }
-            System.out.println(lemma);
+            //System.out.println(lemma);
         }
         return lemma;
+    }
+    public static  void main(String args[]){
+        String s="South Africa won the series";
+        System.out.println("Original string ="+s);
+        System.out.println("Lemmatized form="+returnLemma(s));
     }
 }

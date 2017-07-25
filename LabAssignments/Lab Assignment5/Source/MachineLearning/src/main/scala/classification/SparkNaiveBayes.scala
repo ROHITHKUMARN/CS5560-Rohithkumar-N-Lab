@@ -1,154 +1,62 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-package classification
-
 import java.io.PrintStream
 
+import classification.CoreNLP
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.ml.Pipeline
-import org.apache.spark.ml.feature.{CountVectorizer, CountVectorizerModel, RegexTokenizer, StopWordsRemover}
 import org.apache.spark.mllib.classification.NaiveBayes
-import org.apache.spark.mllib.evaluation.MulticlassMetrics
-import org.apache.spark.mllib.feature.{HashingTF, IDF}
-import org.apache.spark.mllib.linalg.Vector
-import org.apache.spark.mllib.regression.LabeledPoint
-import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
-import scopt.OptionParser
+import org.apache.spark.mllib.feature.{HashingTF, IDF}
+import org.apache.spark.mllib.regression.LabeledPoint
 
 import scala.collection.immutable.HashMap
 
-object SparkNaiveBayes {
+object sparkNaiveBayes {
 
-  private case class Params(
-                             input: Seq[String] = Seq.empty
-                           )
+  def main(args: Array[String]): Unit = {
 
-  def main(args: Array[String]) {
-    val defaultParams = Params()
 
-    val parser = new OptionParser[Params]("NBExample") {
-      head("NBExample: an example NB app for plain text data.")
-      arg[String]("<input>...")
-        .text("input paths (directories) to plain text corpora." +
-          "  Each text file line should hold 1 document.")
-        .unbounded()
-        .required()
-        .action((x, c) => c.copy(input = c.input :+ x))
-    }
-
-    parser.parse(args, defaultParams).map { params =>
-      run(params)
-    }.getOrElse {
-      parser.showUsageAsError
-      sys.exit(1)
-    }
-  }
-
-  private def run(params: Params) {
     System.setProperty("hadoop.home.dir", "/usr/local/Cellar/apache-spark/2.1.0/bin/")
-    val conf = new SparkConf().setAppName(s"NBExample with $params").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
+
+    val conf = new SparkConf().setAppName("NB")
+      .setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
+
     val sc = new SparkContext(conf)
 
-    Logger.getRootLogger.setLevel(Level.WARN)
+    val topic_output = new PrintStream("data/topic_output.txt")
 
-    val topic_output = new PrintStream("data/data_raw_tfidf_NB_Results.txt")
-    // Load documents, and prepare them for NB.
-    val preprocessStart = System.nanoTime()
-    val (inputVector, corpusData, vocabArrayCount) =
-      preprocess(sc, params.input)
+    val QFV = new PrintStream("data/questions_TFIDF.txt")
 
-    var hm = new HashMap[String, Int]()
-    val IMAGE_CATEGORIES = List("sci.crypt", "sci.electronics", "sci.med", "sci.space")
-    var index = 0
-    IMAGE_CATEGORIES.foreach(f => {
-      hm += IMAGE_CATEGORIES(index) -> index
-      index += 1
-    })
-    val mapping = sc.broadcast(hm)
-    val data = corpusData.zip(inputVector)
-    val featureVector = data.map(f => {
-      val location_array = f._1._1.split("/")
-      val class_name = location_array(location_array.length - 2)
-
-      new LabeledPoint(hm.get(class_name).get.toDouble, f._2)
-    })
-    featureVector.saveAsTextFile("data/nb_data_fv")
-    val splits = featureVector.randomSplit(Array(0.6, 0.4), seed = 11L)
-    val training = splits(0)
-    val test = splits(1)
-
-    val model = NaiveBayes.train(training, lambda = 1.0, modelType = "multinomial")
-
-    val predictionAndLabel = test.map(p => (model.predict(p.features), p.label))
-
-
-    val accuracy = 1.0 * predictionAndLabel.filter(x => x._1 == x._2).count() / test.count()
-
-    val metrics = new MulticlassMetrics(predictionAndLabel)
-
-    // Confusion matrix
-    topic_output.println("Confusion matrix:")
-    topic_output.println(metrics.confusionMatrix)
-
-    topic_output.println("Accuracy: " + accuracy)
-
-
-    sc.stop()
-  }
-  /**
-    * Load documents, tokenize them, create vocabulary, and prepare documents as term count vectors.
-    *
-    * @return (corpus, vocabulary as array, total token count in corpus)
-    */
-  private def preprocess(sc: SparkContext,paths: Seq[String]): (RDD[Vector], RDD[(String,String)], Long) = {
-
-    //Reading Stop Words
     val stopWords=sc.textFile("data/stopwords.txt").collect()
+
     val stopWordsBroadCast=sc.broadcast(stopWords)
 
-    val df = sc.wholeTextFiles(paths.mkString(",")).map(f => {
-     val lemmatised=CoreNLP.returnLemma(f._2)
-      //val lemmatised=f._2
-      val splitString = lemmatised.split(" ")
-      (f._1,splitString)
+    val df1 = sc.textFile("data/trainingset.txt")
+
+    val df2 = df1.map(f=>f.split(":")).map(f=>{
+      val lemma1 = CoreNLP.returnLemma(f(1))
+      val split1 = lemma1.split(" ")
+      (f(0),split1)
     })
 
 
-//    val stopWordRemovedDF=df.map(f=>{
-//      //Filtered numeric and special characters out
-//      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
-//        //Filter out the Stop Words
-//        .filter(ff=>{
-//        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
-//          false
-//        else
-//          true
-//      })
-//      (f._1,filteredF)
-//    })
+    val stopWordRemovedDF=df2.map(f=>{
+      //Filtered numeric and special characters out
+      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
+        //Filter out the Stop Words
+        .filter(ff=>{
+        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
+          false
+        else
+          true
+      })
+      (f._1,filteredF)
+    })
 
-    val data=df.map(f=>{(f._1,f._2.mkString(" "))})
-    val dfseq=df.map(_._2.toSeq)
+    val data=stopWordRemovedDF.map(f=>{(f._1,f._2.mkString(" "))})
+
+    val dfseq=stopWordRemovedDF.map(_._2.toSeq)
 
     //Creating an object of HashingTF Class
-    val hashingTF = new HashingTF(df.count().toInt)  // VectorSize as the Size of the Vocab
+    val hashingTF = new HashingTF(stopWordRemovedDF.count().toInt)  // VectorSize as the Size of the Vocab
 
     //Creating Term Frequency of the document
     val tf = hashingTF.transform(dfseq)
@@ -158,10 +66,97 @@ object SparkNaiveBayes {
     //Creating Inverse Document Frequency
     val tfidf1 = idf.transform(tf)
     tfidf1.cache()
-    val dff= df.flatMap(f=>f._2)
-    val vocab=dff.distinct().collect()
-    (tfidf1, data, dff.count()) // Vector, Data, total token count
-  }
-}
 
-// scalastyle:on println
+    val dff= stopWordRemovedDF.flatMap(f=>f._2)
+    val vocab=dff.distinct().collect()
+    val dataf = data.zip(tfidf1)
+    var hm = new HashMap[String, Int]()
+    val IMAGE_CATEGORIES = List("DESC", "ENTY", "HUM", "NUM", "LOC","ABBR")
+    var index = 0
+    IMAGE_CATEGORIES.foreach(f => {
+      hm += IMAGE_CATEGORIES(index) -> index
+      index += 1
+    })
+    val mapping = sc.broadcast(hm)
+    val featureVector = dataf.map(f => {
+
+      new LabeledPoint(hm.get(f._1._1).get.toDouble, f._2)
+    })
+    val training = featureVector
+      featureVector.collect().foreach(f=>QFV.println(f))
+
+    val model = NaiveBayes.train(training, lambda = 1.0, modelType = "multinomial")
+
+    //Mapping Data Set
+    val df1_T = sc.textFile("data/testdata.txt")
+    val df2_T= df1_T.map(f=>f.split(":")).map(f=>{
+      val lemma1 = CoreNLP.returnLemma(f(1))
+      val split1 = lemma1.split(" ")
+      (f(0),split1)
+    })
+
+
+    val stopWordRemovedDF_T=df2_T.map(f=>{
+      //Filtered numeric and special characters out
+      val filteredF=f._2.map(_.replaceAll("[^a-zA-Z]",""))
+        //Filter out the Stop Words
+        .filter(ff=>{
+        if(stopWordsBroadCast.value.contains(ff.toLowerCase))
+          false
+        else
+          true
+      })
+      (f._1,filteredF)
+    })
+
+    val data_T=stopWordRemovedDF_T.map(f=>{(f._1,f._2.mkString(" "))})
+    val dfseq_T=stopWordRemovedDF_T.map(_._2.toSeq)
+
+    //Creating an object of HashingTF Class
+    val hashingTF_T= new HashingTF(stopWordRemovedDF_T.count().toInt)  // VectorSize as the Size of the Vocab
+
+    //Creating Term Frequency of the document
+    val tf_T = hashingTF_T.transform(dfseq_T)
+    tf_T.cache()
+
+    val idf_T = new IDF().fit(tf_T)
+    //Creating Inverse Document Frequency
+    val tfidf1_T = idf_T.transform(tf_T)
+    tfidf1_T.cache()
+
+
+
+    val dff_T= stopWordRemovedDF_T.flatMap(f=>f._2)
+    val vocab_T=dff_T.distinct().collect()
+
+    val dataf_T = data_T.zip(tfidf1_T)
+    val featureVector_T = dataf_T.map(f => {
+
+      new LabeledPoint(hm.get(f._1._1).get.toDouble, f._2)})
+
+    val dataset = dataf_T.map(f=>f._1._2)
+
+    val test_vector = dataf_T.map(f=>f._2)
+    val t_v = featureVector_T.map(f=>f.features)
+    val abc = model.predict(t_v)
+    val abc_map = abc.map(f=>{
+      if (f == 1.0) "DESC"
+      else if (f == 2.0) "ENTY"
+      else if (f == 3.0) "ABBR"
+      else if (f == 4.0) "HUM"
+      else if (f == 5.0) "NUM"
+      else if (f == 6.0) "LOC"
+      else "Error"
+    }
+    )
+    val result = dataset.zip(abc_map)
+
+
+    val abc12 =result.collect()
+    abc12.foreach(f=>topic_output.println(f))
+
+    featureVector_T.collect().foreach(f=>QFV.println(f))
+
+  }
+
+}

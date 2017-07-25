@@ -62,8 +62,7 @@ object SparkLDAMain {
     val topic_output = new PrintStream("output/Results.txt")
     // Load documents, and prepare them for LDA.
     val preprocessStart = System.nanoTime()
-    val (corpus, vocabArray, actualNumTokens) =
-      preprocess(sc, params.input)
+    val (corpus, vocabArray, actualNumTokens) = preprocess(sc, params.input)
     corpus.cache()
     val actualCorpusSize = corpus.count()
     val actualVocabSize = vocabArray.length

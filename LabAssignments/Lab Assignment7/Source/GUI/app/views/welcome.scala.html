@@ -1,0 +1,49 @@
+@(message: String, style: String = "scala")
+
+@defining(play.core.PlayVersion.current) { version =>
+
+<section id="top">
+  <div class="wrapper">
+      <center>
+      <h1>@message</h1><br><br>
+      <h1><center>Welcome to Question and Answering System....!</center></h1>
+      <br>
+      <br>
+      </center>
+  </div>
+</section>
+
+<div id="content" class="wrapper doc">
+
+<article>
+
+    <center>
+
+        <form name="myform" id="myform" method="get" action="@routes.AnswerRetrieval.question">
+
+          Type your question here  <input type="text" name="question" id="question" size="50"><br>
+            <br><br>
+            Get Result <input type="submit" name="mybutton" id="mybutton" value="Search">
+        </form>
+        <br>
+        <br>
+
+        <p id="result"> Answer should display here....!</p>
+    </center>
+
+
+    <!--<p>-->
+
+        <!--<a href="@routes.AsyncController.message">Click here for the AsyncController action!</a>-->
+    <!--</p>-->
+
+    <!--<p>-->
+        <!--<a href="@routes.CountController.count">Click here for the CountController action!</a>-->
+    <!--</p>-->
+
+ 
+</article>
+
+</div>
+
+}

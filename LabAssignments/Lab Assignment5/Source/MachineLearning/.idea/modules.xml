@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark_machinelearning.iml" filepath="$PROJECT_DIR$/.idea/modules/spark_machinelearning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark_machinelearning-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark_machinelearning-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/machinelearning.iml" filepath="$PROJECT_DIR$/.idea/modules/machinelearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/machinelearning-build.iml" filepath="$PROJECT_DIR$/.idea/modules/machinelearning-build.iml" />
     </modules>
   </component>
 </project>

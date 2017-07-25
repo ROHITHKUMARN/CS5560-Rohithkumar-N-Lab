@@ -18,7 +18,7 @@ import scala.collection.immutable.HashMap
 object SparkKMeansMain {
 
   def main(args: Array[String]): Unit = {
-    System.setProperty("hadoop.home.dir", "C:\\winutils")
+    System.setProperty("hadoop.home.dir", "")
     val conf = new SparkConf().setAppName(s"KMeansExample").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
     val sc = new SparkContext(conf)
 

@@ -41,6 +41,10 @@ object main {
     val ners = new ArrayBuffer[String]()
     val sentences = doc.get(classOf[SentencesAnnotation])
     for (sentence <- sentences; token <- sentence.get(classOf[TokensAnnotation])) {
+      println("Sentence is")
+      println(sentence)
+      println("tokens are ")
+      println(token)
       val x = token.originalText().filter(!broadcastStopWords.value.contains(_))
       if (!x.equals(""))
       {
