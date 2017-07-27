@@ -2,295 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08071cc3-419b-4e3f-a2e9-a4f554ea5c89" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$2ab0b52ba8e6e8979af0$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$2ab0b52ba8e6e8979af0$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$2ab0b52ba8e6e8979af0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$2ab0b52ba8e6e8979af0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$40e485e788812826a18f$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$40e485e788812826a18f$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$40e485e788812826a18f.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$40e485e788812826a18f.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c3155900ce784edcfc98$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c3155900ce784edcfc98$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c3155900ce784edcfc98$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c3155900ce784edcfc98$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c3155900ce784edcfc98$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c3155900ce784edcfc98.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c3155900ce784edcfc98.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c9725fc05159d81ebd1b$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c9725fc05159d81ebd1b$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c9725fc05159d81ebd1b.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$c9725fc05159d81ebd1b.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$e08a37bea0aa4b82ce19$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$e08a37bea0aa4b82ce19$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$e08a37bea0aa4b82ce19.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/config-classes/$e08a37bea0aa4b82ce19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$cfd8d22164edb8c66b2c$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$cfd8d22164edb8c66b2c$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$cfd8d22164edb8c66b2c$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$cfd8d22164edb8c66b2c$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$cfd8d22164edb8c66b2c$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$cfd8d22164edb8c66b2c.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/config-classes/$cfd8d22164edb8c66b2c.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/Results_KMeans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/Results_NBs.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/data_raw_tfidf_DT_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/data_raw_tfidf_NB_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/data_raw_tfidif_RF_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_data_DT/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_data_DT/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_data_DT/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_data_DT/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_data_DT/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tf_DT/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tf_DT/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tf_DT/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tf_DT/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tf_DT/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tfidf_DT/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tfidf_DT/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tfidf_DT/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tfidf_DT/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/fv_tfidf_DT/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/kMeans_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_data_fv/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_data_fv/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_data_fv/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_data_fv/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_data_fv/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tf_fv/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tf_fv/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tf_fv/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tf_fv/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tf_fv/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tfidf_fv/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tfidf_fv/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tfidf_fv/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tfidf_fv/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/nb_tfidf_fv/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_data_fv/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_data_fv/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_data_fv/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_data_fv/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_data_fv/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tf_fv/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tf_fv/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tf_fv/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tf_fv/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tf_fv/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tfidf_fv/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tfidf_fv/.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tfidf_fv/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tfidf_fv/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/rt_tfidf_fv/part-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/sentenceSample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/tf_DT_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/tf_NB_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/tf_RF_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/tfidf_DT_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/tfidf_NB_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/data/tfidf_RF_Results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anon$1$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anon$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$classification$SparkNaiveBayes$$run$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$$anonfun$main$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$Params$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes$Params.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkNaiveBayes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anon$1$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anon$1$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anon$1$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anon$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$11$$anonfun$apply$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$14$$anonfun$apply$5$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$14$$anonfun$apply$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$5$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$7$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$7$$anonfun$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$kMeans$DATANLPSPLDA$$run$1$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$kMeans$DATANLPSPLDA$$run$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$$anonfun$main$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$Params$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA$Params.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/kMeans/DATANLPSPLDA.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/CoreNLP.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/CoreNLP.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$1.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$10.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$11.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$12.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$13.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$2.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$4.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$5.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$6.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$7.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$8.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$9.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$coreNLP$1$$anonfun$apply$1$$anonfun$3.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$coreNLP$1$$anonfun$apply$1$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$coreNLP$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$coreNLP$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$coreNLP$1.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$coreNLP$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$4.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$5.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$6.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$$anonfun$main$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$.class" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/scala-2.10/test-classes/main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkDecisionTree$.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkDecisionTree$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$2.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$3.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$4.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$5.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$6.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$7.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$8.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$.class" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/target/scala-2.11/classes/classification/SparkRandomForest$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/modules/lab2_3-build.iml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/modules/lab2_3-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/modules/lab2_3.iml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/modules/lab2_3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/sbt.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/sbt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/default/lab2_3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/default/lab2_3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/default/lab2_3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/default/lab2_3-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-compile-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-compile.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-docs.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-optional.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-plugin.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-pom.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-provided.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-runtime.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-scala-tool.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-sources.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-test-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-test.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/resolution-cache/reports/default-lab2_3-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/src/test/scala/CoreNLP.java" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/src/test/scala/CoreNLP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/src/test/scala/QA2.scala" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/src/test/scala/QA2.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3$sources_2.10/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3$sources_2.10/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3_2.10/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/default/lab2_3_2.10/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-compile.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-docs.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-optional.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-plugin.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-pom.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-provided.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-runtime.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-sources.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-test.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3$sources_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-compile.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-docs.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-optional.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-plugin.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-pom.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-provided.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-runtime.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-sources.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-test.xml" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/resolution-cache/reports/default-lab2_3_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../Lab Assignment2/Source/Lab2_3/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$2a2dc931f32111440580$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$2a2dc931f32111440580$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$2a2dc931f32111440580$$anonfun$$sbtdef$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$2a2dc931f32111440580$$anonfun$$sbtdef$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$2a2dc931f32111440580$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$2a2dc931f32111440580.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$2a2dc931f32111440580.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$5dc7de1f9fcd6aefc854$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$5dc7de1f9fcd6aefc854$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$5dc7de1f9fcd6aefc854.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$5dc7de1f9fcd6aefc854.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$63ffeac6725c83ceba47$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$63ffeac6725c83ceba47$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$63ffeac6725c83ceba47.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$63ffeac6725c83ceba47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$801e47c8a8e7a7462ba9$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$801e47c8a8e7a7462ba9$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$801e47c8a8e7a7462ba9.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$801e47c8a8e7a7462ba9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$c47a967b9084276baf0a$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$c47a967b9084276baf0a$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$c47a967b9084276baf0a.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/config-classes/$c47a967b9084276baf0a.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/.idea/modules/lab4-build.iml" afterPath="$PROJECT_DIR$/Source/Lab4/.idea/modules/lab4-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/.idea/modules/lab4.iml" afterPath="$PROJECT_DIR$/Source/Lab4/.idea/modules/lab4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/default/lab4-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-docs.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-optional.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-plugin.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-pom.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-provided.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-scala-tool.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-sources.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test.xml" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/resolution-cache/reports/default-lab4-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/Source/Lab4/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala" afterPath="$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4$sources_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/default/lab4_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4$sources_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-docs.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-optional.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-plugin.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-pom.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-provided.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-sources.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test.xml" afterPath="$PROJECT_DIR$/Source/Lab4/target/resolution-cache/reports/default-lab4_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/Source/Lab4/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/Lab4/src/data/sample" afterPath="$PROJECT_DIR$/Source/Lab4/src/data/sample" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/src/main/scala/classification/SparkNaiveBayes.scala" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/src/main/scala/classification/SparkNaiveBayes.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/src/main/scala/classification/SparkRandomForest.scala" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/src/main/scala/classification/SparkRandomForest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/src/main/scala/kMeans/DATANLPSPLDA.scala" afterPath="$PROJECT_DIR$/../Lab Assignment5/Source/MachineLearning/src/main/scala/kMeans/DATANLPSPLDA.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../LabAssignment 6/Source/Querying/target/streams/$global/updateClassifiers/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/Source/Lab4/target/" />
     <ignored path="$PROJECT_DIR$/Source/Lab4/project/project/target/" />
@@ -332,7 +83,7 @@
     <favorites_list name="Lab Assignment4" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CoreNLP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/CoreNLP.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -343,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OPENIE.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OPENIE.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/OPENIE.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -355,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkLDAMain.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SparkLDAMain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
+            <state relative-caret-position="15">
               <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
               <folding>
                 <element signature="e#13#39#0" expanded="true" />
@@ -370,9 +121,11 @@
       <file leaf-file-name="SparkOpenIE.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/SparkOpenIE.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -380,8 +133,8 @@
       <file leaf-file-name="sample" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Lab4/src/data/sample">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -462,13 +215,13 @@
         <option value="$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/SparkOpenIE.scala" />
         <option value="$PROJECT_DIR$/output/openie/part-00001" />
         <option value="$PROJECT_DIR$/output/openie/part-00000" />
-        <option value="$PROJECT_DIR$/Source/Lab4/src/data/sample" />
         <option value="$PROJECT_DIR$/Source/Lab4/build.sbt" />
         <option value="$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala" />
+        <option value="$PROJECT_DIR$/Source/Lab4/src/data/sample" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="725" />
@@ -489,6 +242,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,6 +276,14 @@
               <item name="Source" type="462c0819:PsiDirectoryNode" />
               <item name="Lab4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab Assignment4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab Assignment4" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -531,13 +295,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Lab Assignment4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab Assignment4" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="openie" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1061,24 +832,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="725" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4984472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49793673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2197092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22294022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1095,8 +867,8 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1129,7 +901,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31502423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1152,7 +924,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,7 +949,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-          <folding />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1376,22 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/openie/part-00001">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/openie/part-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Lab4/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1400,28 +1160,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/data/sample">
+    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/SparkOpenIE.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/OPENIE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#13#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1434,12 +1178,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/lda/SparkLDAMain.scala">
+    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/data/sample">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/SparkOpenIE.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#13#39#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/openie/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/openie/part-00001">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Lab4/src/main/scala/openie/OPENIE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
